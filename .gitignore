@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & Logs
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# OS-Spezifisch
+.DS_Store
+Thumbs.db
+
+# Virtualenv / Pipenv
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# Environment Variables
+.env
+.env.*
+
+# Streamlit config cache
+.streamlit/
+
+# Test & Backup Artefakte
+*.zip
+*.html
+*.md.backup
+backup/
+test_output/
+
+# VS / IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Projektstruktur-Exporte
+project_snapshot/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# GitIgnore Template für Python-Projekte mit Streamlit und Logging
