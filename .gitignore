@@ -1,7 +1,7 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
 # Caches & Logs
 *.log
@@ -10,44 +10,70 @@ __pycache__/
 *.bak
 *.tmp
 
-# OS-Spezifisch
-.DS_Store
-Thumbs.db
 
-# Virtualenv / Pipenv
+# Python Virtual Environments
+.env/
 .venv/
-env/
 venv/
+ENV/
+env/
+.Python
 pip-wheel-metadata/
 *.egg-info/
 
-# Environment Variables
-.env
-.env.*
-
-# Streamlit config cache
-.streamlit/
-
-# Test & Backup Artefakte
-*.zip
-*.html
-*.md.backup
-backup/
-test_output/
-
-# VS / IDE / Editor
+# Editor-/IDE-spezifische Dateien
 .vscode/
 .idea/
-*.code-workspace
-*.suo
+*.swp
+*.swo
+
+# Mac/Linux
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Projekteinstellungen (z. B. Visual Studio)
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
 
-# Projektstruktur-Exporte
-project_snapshot/
+# Jupyter/IPython
+.ipynb_checkpoints
 
-# Jupyter / IPython
-.ipynb_checkpoints/
+# Build-/Dist
+build/
+dist/
+*.egg-info/
 
-# GitIgnore Template für Python-Projekte mit Streamlit und Logging
+# Persönliche Daten
+*.secret
+*.key
+
+# Tests & Debug
+.coverage
+.cache/
+*.cover
+*.db
+
+# Umgebungskonfig
+!.env.template
+.env*
+
+# Export- oder Backup-Dateien
+*.zip
+backup_*.json
+
+# Projektgenerierte Dateien
+project_structure_*.zip
+tests/report_*.html
+tests/report_*.md
+tests/report_*.json
+
+# Beispiele: Cleanup-Report
+cleanup_report_*.html
+cleanup_report_*.md
