@@ -29,6 +29,7 @@ pip-wheel-metadata/
 .vs/
 *.vsidx
 *.pyproj
+*.sln
 
 # Mac/Linux
 .DS_Store
