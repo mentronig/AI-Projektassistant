@@ -1,6 +1,6 @@
 import logging
 from config.config_loader import load_config
-from ui.project_ui import ProjectUI
+from ui.project_ui import ProjectAssistantUI
 
 # -----------------------------
 # Logging einrichten
@@ -15,7 +15,7 @@ logging.basicConfig(
 # -----------------------------
 try:
     load_config()  # .env prüfen und laden
-    app = ProjectUI()
+    app = ProjectAssistantUI()
     app.run()
 except Exception as e:
     logging.error(f"❌ Fehler beim Starten der Anwendung: {e}")
